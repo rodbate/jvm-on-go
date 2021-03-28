@@ -1,0 +1,32 @@
+package comparison
+
+import (
+	"jvm-on-go/instructions/base"
+	"jvm-on-go/rtda"
+)
+
+func FCmpg(reader *base.ByteCodeReader, frame *rtda.Frame) {
+	_execute(frame, true)
+}
+
+func FCmpl(reader *base.ByteCodeReader, frame *rtda.Frame) {
+	_execute(frame, false)
+}
+
+func _execute(frame *rtda.Frame, isFCmpg bool) {
+	val2 := frame.OperandStack.PopFloat()
+	val1 := frame.OperandStack.PopFloat()
+	if val1 > val2 {
+		frame.OperandStack.PushInt(1)
+	} else if val1 < val2 {
+		frame.OperandStack.PushInt(-1)
+	} else if val1 == val2 {
+		frame.OperandStack.PushInt(0)
+	} else {
+		if isFCmpg {
+			frame.OperandStack.PushInt(1)
+		} else {
+			frame.OperandStack.PushInt(-1)
+		}
+	}
+}
