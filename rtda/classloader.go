@@ -2,10 +2,10 @@ package rtda
 
 import (
 	"fmt"
-	"jvm-on-go/classfile"
-	"jvm-on-go/classpath"
-	"jvm-on-go/constants/classname"
-	"jvm-on-go/constants/descriptors"
+	"github.com/rodbate/jvm-on-go/classfile"
+	"github.com/rodbate/jvm-on-go/classpath"
+	"github.com/rodbate/jvm-on-go/constants/classname"
+	"github.com/rodbate/jvm-on-go/constants/descriptors"
 )
 
 type ClassLoader struct {

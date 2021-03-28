@@ -2,9 +2,9 @@ package rtda
 
 import (
 	"fmt"
-	"jvm-on-go/classfile"
-	"jvm-on-go/constants/descriptors"
-	"jvm-on-go/instructions/opcodes"
+	"github.com/rodbate/jvm-on-go/classfile"
+	"github.com/rodbate/jvm-on-go/constants/descriptors"
+	"github.com/rodbate/jvm-on-go/instructions/opcodes"
 )
 
 type Method struct {

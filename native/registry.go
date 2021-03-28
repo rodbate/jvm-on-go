@@ -1,6 +1,6 @@
 package native
 
-import "jvm-on-go/rtda"
+import "github.com/rodbate/jvm-on-go/rtda"
 
 type JNativeMethod func(frame *rtda.Frame)
 

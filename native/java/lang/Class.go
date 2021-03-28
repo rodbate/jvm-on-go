@@ -1,11 +1,11 @@
 package lang
 
 import (
-	"jvm-on-go/constants/classname"
-	"jvm-on-go/constants/descriptors"
-	"jvm-on-go/instructions/base"
-	"jvm-on-go/native"
-	"jvm-on-go/rtda"
+	"github.com/rodbate/jvm-on-go/constants/classname"
+	"github.com/rodbate/jvm-on-go/constants/descriptors"
+	"github.com/rodbate/jvm-on-go/instructions/base"
+	"github.com/rodbate/jvm-on-go/native"
+	"github.com/rodbate/jvm-on-go/rtda"
 	"strings"
 )
 

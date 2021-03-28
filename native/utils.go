@@ -1,7 +1,7 @@
 package native
 
 import (
-	"jvm-on-go/rtda"
+	"github.com/rodbate/jvm-on-go/rtda"
 	"unsafe"
 )
 

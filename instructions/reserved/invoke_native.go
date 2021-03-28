@@ -2,15 +2,15 @@ package reserved
 
 import (
 	"fmt"
-	"jvm-on-go/instructions/base"
-	"jvm-on-go/native"
-	_ "jvm-on-go/native/java/io"
-	_ "jvm-on-go/native/java/lang"
-	_ "jvm-on-go/native/java/security"
-	_ "jvm-on-go/native/java/util/concurrent/atomic"
-	_ "jvm-on-go/native/sun/misc"
-	_ "jvm-on-go/native/sun/reflect"
-	"jvm-on-go/rtda"
+	"github.com/rodbate/jvm-on-go/instructions/base"
+	"github.com/rodbate/jvm-on-go/native"
+	_ "github.com/rodbate/jvm-on-go/native/java/io"
+	_ "github.com/rodbate/jvm-on-go/native/java/lang"
+	_ "github.com/rodbate/jvm-on-go/native/java/security"
+	_ "github.com/rodbate/jvm-on-go/native/java/util/concurrent/atomic"
+	_ "github.com/rodbate/jvm-on-go/native/sun/misc"
+	_ "github.com/rodbate/jvm-on-go/native/sun/reflect"
+	"github.com/rodbate/jvm-on-go/rtda"
 )
 
 func InvokeNative(reader *base.ByteCodeReader, frame *rtda.Frame) {

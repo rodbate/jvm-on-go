@@ -1,8 +1,8 @@
 package rtda
 
 import (
-	"jvm-on-go/constants/classname"
-	"jvm-on-go/constants/descriptors"
+	"github.com/rodbate/jvm-on-go/constants/classname"
+	"github.com/rodbate/jvm-on-go/constants/descriptors"
 	"unicode/utf16"
 )
 

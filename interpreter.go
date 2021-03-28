@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	"jvm-on-go/instructions"
-	"jvm-on-go/instructions/base"
-	"jvm-on-go/rtda"
+	"github.com/rodbate/jvm-on-go/instructions"
+	"github.com/rodbate/jvm-on-go/instructions/base"
+	"github.com/rodbate/jvm-on-go/rtda"
 )
 
 func interpret(thread *rtda.Thread, logInst bool) {

@@ -1,8 +1,8 @@
 package io
 
 import (
-	"jvm-on-go/constants/classname"
-	"jvm-on-go/native"
+	"github.com/rodbate/jvm-on-go/constants/classname"
+	"github.com/rodbate/jvm-on-go/native"
 )
 
 func init() {

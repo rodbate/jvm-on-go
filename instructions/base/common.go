@@ -1,7 +1,7 @@
 package base
 
 import (
-	"jvm-on-go/rtda"
+	"github.com/rodbate/jvm-on-go/rtda"
 	"reflect"
 	"runtime"
 )

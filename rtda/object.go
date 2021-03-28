@@ -2,7 +2,7 @@ package rtda
 
 import (
 	"fmt"
-	"jvm-on-go/constants/descriptors"
+	"github.com/rodbate/jvm-on-go/constants/descriptors"
 )
 
 type Object struct {

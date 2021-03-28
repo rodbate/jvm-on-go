@@ -1,7 +1,7 @@
 package rtda
 
 import (
-	"jvm-on-go/constants/descriptors"
+	"github.com/rodbate/jvm-on-go/constants/descriptors"
 	"strings"
 )
 

@@ -2,19 +2,19 @@ package instructions
 
 import (
 	"fmt"
-	"jvm-on-go/instructions/base"
-	"jvm-on-go/instructions/comparison"
-	"jvm-on-go/instructions/constant"
-	"jvm-on-go/instructions/control"
-	"jvm-on-go/instructions/conversion"
-	"jvm-on-go/instructions/extended"
-	"jvm-on-go/instructions/load"
-	"jvm-on-go/instructions/math"
-	"jvm-on-go/instructions/opcodes"
-	"jvm-on-go/instructions/reference"
-	"jvm-on-go/instructions/reserved"
-	"jvm-on-go/instructions/stack"
-	"jvm-on-go/instructions/store"
+	"github.com/rodbate/jvm-on-go/instructions/base"
+	"github.com/rodbate/jvm-on-go/instructions/comparison"
+	"github.com/rodbate/jvm-on-go/instructions/constant"
+	"github.com/rodbate/jvm-on-go/instructions/control"
+	"github.com/rodbate/jvm-on-go/instructions/conversion"
+	"github.com/rodbate/jvm-on-go/instructions/extended"
+	"github.com/rodbate/jvm-on-go/instructions/load"
+	"github.com/rodbate/jvm-on-go/instructions/math"
+	"github.com/rodbate/jvm-on-go/instructions/opcodes"
+	"github.com/rodbate/jvm-on-go/instructions/reference"
+	"github.com/rodbate/jvm-on-go/instructions/reserved"
+	"github.com/rodbate/jvm-on-go/instructions/stack"
+	"github.com/rodbate/jvm-on-go/instructions/store"
 )
 
 var instructions = map[uint8]base.Instruction{

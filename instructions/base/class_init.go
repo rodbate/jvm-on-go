@@ -1,6 +1,6 @@
 package base
 
-import "jvm-on-go/rtda"
+import "github.com/rodbate/jvm-on-go/rtda"
 
 func InitClass(thread *rtda.Thread, class *rtda.Class) {
 	if class.InitStarted() {

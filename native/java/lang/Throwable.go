@@ -2,9 +2,9 @@ package lang
 
 import (
 	"fmt"
-	"jvm-on-go/constants/classname"
-	"jvm-on-go/native"
-	"jvm-on-go/rtda"
+	"github.com/rodbate/jvm-on-go/constants/classname"
+	"github.com/rodbate/jvm-on-go/native"
+	"github.com/rodbate/jvm-on-go/rtda"
 )
 
 //java.lang.StackTraceElements

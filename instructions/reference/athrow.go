@@ -1,10 +1,10 @@
 package reference
 
 import (
-	"jvm-on-go/constants/descriptors"
-	"jvm-on-go/instructions/base"
-	"jvm-on-go/native/java/lang"
-	"jvm-on-go/rtda"
+	"github.com/rodbate/jvm-on-go/constants/descriptors"
+	"github.com/rodbate/jvm-on-go/instructions/base"
+	"github.com/rodbate/jvm-on-go/native/java/lang"
+	"github.com/rodbate/jvm-on-go/rtda"
 )
 
 func AThrow(reader *base.ByteCodeReader, frame *rtda.Frame) {

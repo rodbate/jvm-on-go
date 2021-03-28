@@ -1,8 +1,8 @@
 package rtda
 
 import (
-	"jvm-on-go/classfile"
-	"jvm-on-go/constants/descriptors"
+	"github.com/rodbate/jvm-on-go/classfile"
+	"github.com/rodbate/jvm-on-go/constants/descriptors"
 )
 
 type Field struct {

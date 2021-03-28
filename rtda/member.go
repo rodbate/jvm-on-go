@@ -1,6 +1,6 @@
 package rtda
 
-import "jvm-on-go/classfile"
+import "github.com/rodbate/jvm-on-go/classfile"
 
 type Member struct {
 	AccessFlags    uint16

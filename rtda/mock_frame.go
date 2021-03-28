@@ -1,6 +1,6 @@
 package rtda
 
-import "jvm-on-go/instructions/opcodes"
+import "github.com/rodbate/jvm-on-go/instructions/opcodes"
 
 var (
 	mockClass    = &Class{name: "internal_mock"}

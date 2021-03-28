@@ -1,12 +1,12 @@
 package extended
 
 import (
-	"jvm-on-go/instructions/base"
-	"jvm-on-go/instructions/load"
-	"jvm-on-go/instructions/math"
-	"jvm-on-go/instructions/opcodes"
-	"jvm-on-go/instructions/store"
-	"jvm-on-go/rtda"
+	"github.com/rodbate/jvm-on-go/instructions/base"
+	"github.com/rodbate/jvm-on-go/instructions/load"
+	"github.com/rodbate/jvm-on-go/instructions/math"
+	"github.com/rodbate/jvm-on-go/instructions/opcodes"
+	"github.com/rodbate/jvm-on-go/instructions/store"
+	"github.com/rodbate/jvm-on-go/rtda"
 )
 
 /**

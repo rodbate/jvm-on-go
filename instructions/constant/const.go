@@ -1,8 +1,8 @@
 package constant
 
 import (
-	"jvm-on-go/instructions/base"
-	"jvm-on-go/rtda"
+	"github.com/rodbate/jvm-on-go/instructions/base"
+	"github.com/rodbate/jvm-on-go/rtda"
 )
 
 /**

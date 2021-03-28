@@ -2,7 +2,7 @@ package rtda
 
 import (
 	"fmt"
-	"jvm-on-go/classfile"
+	"github.com/rodbate/jvm-on-go/classfile"
 )
 
 type InterfaceMethodRef struct {
