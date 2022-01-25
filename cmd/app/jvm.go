@@ -33,7 +33,7 @@ var (
 )
 
 func init() {
-	jvmCommand.Flags().BoolVarP(&options.verbose, "verbose", "v", options.versionFlag, "verbose flag")
+	jvmCommand.Flags().BoolVarP(&options.verbose, "verbose", "v", options.verbose, "verbose flag")
 	jvmCommand.Flags().StringVarP(&options.cpOption, "classpath", "c", options.cpOption, "classpath")
 }
 
