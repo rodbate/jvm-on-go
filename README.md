@@ -57,6 +57,6 @@ public class ChineseSupportSample {
 
 输入以下命令即可运行
 ```shell
-./jvm -cp testdata ChineseSupportSample
+./jvm run -c testdata ChineseSupportSample
 ```
 
